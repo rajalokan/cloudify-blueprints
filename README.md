@@ -13,5 +13,5 @@ cfy install https://github.com/rajalokan/cloudify-blueprints/archive/master.zip 
 
 * To install a very simple VM
 ```
-cfy install https://github.com/rajalokan/cloudify-blueprints/archive/master.zip --blueprint-filename openstack-vm-blueprint.yaml --blueprint-id simple_openstack_vm -i private_network_name=<my_network>
+cfy install https://github.com/rajalokan/cloudify-blueprints/archive/master.zip --blueprint-filename openstack_vm_blueprint.yaml --blueprint-id simple_openstack_vm -i private_network_name=<my_network>
 ```
